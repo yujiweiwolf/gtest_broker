@@ -1,0 +1,15 @@
+feeder:
+  # push_address: tcp://*:8000
+  push_address: mem:///../data/feed.stock.mem?keep=0,tcp://*:8000
+  sub_date: 0
+  sub_time: -1
+  enable_spot: true
+  enable_future: true
+  enable_option: true
+  enable_order: true
+  enable_knock: true
+  enable_holo: true
+
+log:
+  level: trace
+  async: false
